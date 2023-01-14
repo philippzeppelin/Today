@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		E77E640B2972CEC00007C1E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E640A2972CEC00007C1E5 /* AppDelegate.swift */; };
 		E77E640D2972CEC00007C1E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E640C2972CEC00007C1E5 /* SceneDelegate.swift */; };
-		E77E640F2972CEC00007C1E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E640E2972CEC00007C1E5 /* ViewController.swift */; };
+		E77E640F2972CEC00007C1E5 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E640E2972CEC00007C1E5 /* ReminderListViewController.swift */; };
 		E77E64142972CEC20007C1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77E64132972CEC20007C1E5 /* Assets.xcassets */; };
 		E77E64172972CEC20007C1E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77E64152972CEC20007C1E5 /* LaunchScreen.storyboard */; };
+		E77E64202972D21D0007C1E5 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E641F2972D21D0007C1E5 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E77E64072972CEC00007C1E5 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77E640A2972CEC00007C1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E77E640C2972CEC00007C1E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E77E640E2972CEC00007C1E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E77E640E2972CEC00007C1E5 /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		E77E64132972CEC20007C1E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E77E64162972CEC20007C1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E77E64182972CEC20007C1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77E641F2972D21D0007C1E5 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		E77E64092972CEC00007C1E5 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				E77E641E2972D1F90007C1E5 /* Models */,
 				E77E640A2972CEC00007C1E5 /* AppDelegate.swift */,
 				E77E640C2972CEC00007C1E5 /* SceneDelegate.swift */,
-				E77E640E2972CEC00007C1E5 /* ViewController.swift */,
+				E77E640E2972CEC00007C1E5 /* ReminderListViewController.swift */,
 				E77E64132972CEC20007C1E5 /* Assets.xcassets */,
 				E77E64152972CEC20007C1E5 /* LaunchScreen.storyboard */,
 				E77E64182972CEC20007C1E5 /* Info.plist */,
 			);
 			path = Today;
+			sourceTree = "<group>";
+		};
+		E77E641E2972D1F90007C1E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E77E641F2972D21D0007C1E5 /* Reminder.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E77E640F2972CEC00007C1E5 /* ViewController.swift in Sources */,
+				E77E640F2972CEC00007C1E5 /* ReminderListViewController.swift in Sources */,
 				E77E640B2972CEC00007C1E5 /* AppDelegate.swift in Sources */,
 				E77E640D2972CEC00007C1E5 /* SceneDelegate.swift in Sources */,
+				E77E64202972D21D0007C1E5 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
