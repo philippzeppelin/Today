@@ -56,13 +56,10 @@
 		E77E64092972CEC00007C1E5 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				E77E6421297474C90007C1E5 /* Application */,
 				E77E641E2972D1F90007C1E5 /* Models */,
-				E77E640A2972CEC00007C1E5 /* AppDelegate.swift */,
-				E77E640C2972CEC00007C1E5 /* SceneDelegate.swift */,
 				E77E640E2972CEC00007C1E5 /* ReminderListViewController.swift */,
-				E77E64132972CEC20007C1E5 /* Assets.xcassets */,
-				E77E64152972CEC20007C1E5 /* LaunchScreen.storyboard */,
-				E77E64182972CEC20007C1E5 /* Info.plist */,
+				E77E6422297474F20007C1E5 /* SupportingFiles */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -73,6 +70,25 @@
 				E77E641F2972D21D0007C1E5 /* Reminder.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E77E6421297474C90007C1E5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E77E640A2972CEC00007C1E5 /* AppDelegate.swift */,
+				E77E640C2972CEC00007C1E5 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E77E6422297474F20007C1E5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E77E64132972CEC20007C1E5 /* Assets.xcassets */,
+				E77E64152972CEC20007C1E5 /* LaunchScreen.storyboard */,
+				E77E64182972CEC20007C1E5 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +305,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZFRPQ8YP88;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Today/Info.plist;
+				INFOPLIST_FILE = Today/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -316,7 +332,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZFRPQ8YP88;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Today/Info.plist;
+				INFOPLIST_FILE = Today/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
